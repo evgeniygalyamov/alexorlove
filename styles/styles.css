@@ -14,7 +14,7 @@ header {
     height: 765px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./resources/main.png)
+    background-image: url(../resources/main.png)
 }
 
 footer {
