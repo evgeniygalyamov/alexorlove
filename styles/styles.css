@@ -1,1 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
 
+body {
+    font-family: "IBM Plex Mono", monospace;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 765px;
+    background-image: url(../resources/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    height: 223px;
+    font-family: "Manrope";
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 15px;
+}
+
+
+.nav__logo-link {
+    width: 130px;
+    height: 39px;
+
+}
+
+.nav {
+    padding-top: 36px;
+}
+
+.nav__menu {
+
+    display: inline;
+}
+
+.nav__menu-link {
+    margin-right: 50px;
+    float: right;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.nav__menu-link:hover {
+    color: #1BFF07;
+}
+
+.nav__menu-link:nth-last-child(4) {
+    margin-right: 0;
+}
+
+.main {
+    padding-top: 260px;
+}
+
+.main__title {
+    margin-bottom: 30px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+h1 {
+    width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.projeсts {
+    margin: 150px 0;
+}
+
+.projeсts__list {
+    margin-top: 30px;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 94px;
+    left: 50px;
+}
+
+.projects__list-card {
+    height: 550px;
+    position: relative;
+    background-image: url(../resources/news1.png);
+    background-repeat: no-repeat;
+}
+
+.projects__list-card-title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.projects__list-card:nth-child(2) {
+    background-image: url(../resources/news2.png);
+}
+
+.projects__list-card:nth-child(3) {
+    background-image: url(../resources/news3.png);
+}
+
+.projeсts__btn {
+    margin-top: 80px;
+    padding: 56px 120px;
+    background-color: #1BFF07;
+    font-family: IBM Plex Mono;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000000;
+
+}
+
+.projeсts__btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #1BFF07;
+    border: 1px solid #1BFF07;
+}
+
+.skills {
+    margin-bottom: 150px;
+}
+
+.skills__list {
+    margin-top: 50px;
+}
+
+.skills__list-card {
+    margin-bottom: 60px;
+}
+
+.skills__list-card-titl {
+    margin-bottom: 15px;
+    color: #1BFF07;
+}
+
+.skills__list-card-img {
+    margin-bottom: 16px;
+    width: 45px;
+    height: 44px;
+    display: block;
+}
+
+.skills__list-card-text {
+    width: 778px;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.services {
+    margin-bottom: 150px;
+}
+
+.services__list {
+    margin-top: 75px;
+}
+
+.services__list-card {
+    margin-bottom: 74px;
+}
+
+.services__list-card:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.services__list-card-title {
+    margin-bottom: 15px;
+    color: #1BFF07;
+}
+
+.services__list-card-content {
+    padding: 40px 0 40px 40px;
+    background-color: #191C19;
+    border-radius: 30px;
+}
+
+.services__list-card-text {
+    width: 727px;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    color: white;
+
+}
+
+.contacts {
+    margin: 0 auto;
+    margin-bottom: 150px;
+    width: 1400px;
+    height: 717px;
+    background-image: url(../resources/programmer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts__title {
+    padding-top: 320px;
+    margin-bottom: 28px;
+}
+
+.contacts__social-list-link {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.contacts__social-list {
+    margin-bottom: 20px;
+}
+
+.contacts__social-list:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.contacts__social-list-link:hover {
+    color: #1BFF07;
+}
+
+.footer__title{
+    padding-top: 76px;
+font-size: 22px;
+line-height: 30.05px;
+letter-spacing: -0.03em;
+color: #000000;
+
+}
+
+.footer__description{
+    padding-top: 66px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    opacity: 50%;
+}
