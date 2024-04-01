@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 body {
     font-family: "IBM Plex Mono", monospace;
     background-color: black;
@@ -20,7 +22,7 @@ header {
     background-size: cover;
 }
 
-footer{
+footer {
     margin: 0 auto;
     width: 100%;
     max-width: 1400px;
@@ -48,7 +50,11 @@ footer{
 }
 
 .nav__menu {
+    display: inline;
 
+}
+
+.nav__menu-list {
     display: inline;
 }
 
@@ -58,6 +64,7 @@ footer{
     font-size: 18px;
     line-height: 23.4px;
     letter-spacing: -0.03em;
+    display: inline;
     color: white;
 }
 
@@ -69,11 +76,11 @@ footer{
     margin-right: 0;
 }
 
-.main {
+.nav__whrapper {
     padding-top: 260px;
 }
 
-.main__title {
+.nav__whrapper-title {
     margin-bottom: 30px;
     width: 430px;
     font-size: 20px;
@@ -91,41 +98,52 @@ h1 {
 }
 
 h2 {
-    font-size: 55px;
-    line-height: 71.5px;
-    letter-spacing: -0.03em;
-    color: white;
-}
-
-h3 {
     font-size: 35px;
     line-height: 45.5px;
     letter-spacing: -0.03em;
     color: white;
 }
 
+h3 {
+    font-size: 55px;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.projects__list{
+    margin-bottom: 80px;
+}
+
+.projects__title{
+    margin-bottom: 40px;
+}
+
 .projeсts {
     margin: 150px 0;
+    
 }
 
-.projeсts__list {
-    margin-top: 30px;
+.project{
+    position: relative;
 }
 
-.card-title {
+.project__img {
+    width: 100%;
+    height: 550px;
+}
+
+.project__title {
     position: absolute;
     bottom: 94px;
     left: 50px;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    color: white;
 }
 
-.projects__list-card {
-    height: 550px;
-    position: relative;
-    background-image: url(../resources/news1.png);
-    background-repeat: no-repeat;
-}
-
-.projects__list-card-title {
+.project__text {
     position: absolute;
     bottom: 50px;
     left: 50px;
@@ -133,33 +151,22 @@ h3 {
     line-height: 39px;
     letter-spacing: -0.03em;
     color: white;
+
 }
 
-.projects__list-card:nth-child(2) {
-    background-image: url(../resources/news2.png);
-}
 
-.projects__list-card:nth-child(3) {
-    background-image: url(../resources/news3.png);
-}
-
-.projeсts__btn {
-    margin-top: 80px;
+.projects__btn {
     padding: 56px 120px;
     background-color: #1BFF07;
-    font-family: IBM Plex Mono;
     font-size: 30px;
-    font-weight: 400;
-    line-height: 39px;
+    line-height: 153px;
     letter-spacing: -0.03em;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid #000000;
 
 }
 
-.projeсts__btn:hover {
-    cursor: pointer;
+.projects__btn:hover {
     background-color: black;
     color: #1BFF07;
     border: 1px solid #1BFF07;
@@ -173,23 +180,23 @@ h3 {
     margin-top: 50px;
 }
 
-.skills__list-card {
+.skill {
     margin-bottom: 60px;
 }
 
-.skills__list-card-titl {
+.skill__title {
     margin-bottom: 15px;
     color: #1BFF07;
 }
 
-.skills__list-card-img {
+.skill__img {
     margin-bottom: 16px;
     width: 45px;
     height: 44px;
     display: block;
 }
 
-.skills__list-card-text {
+.skill__text {
     width: 778px;
     font-size: 22px;
     line-height: 28.6px;
@@ -207,6 +214,21 @@ h3 {
 
 .services__list-card {
     margin-bottom: 74px;
+}
+
+.img__whrapper{
+    width: 100%;
+    height: 200px;
+}
+
+.services__title{
+    width: 403px;
+}
+
+.services__list-cardimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .services__list-card:nth-last-child(1) {
@@ -267,16 +289,16 @@ h3 {
     color: #1BFF07;
 }
 
-.footer__title{
+.footer__title {
     padding-top: 76px;
-font-size: 22px;
-line-height: 30.05px;
-letter-spacing: -0.03em;
-color: #000000;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    color: #000000;
 
 }
 
-.footer__description{
+.footer__description {
     padding-top: 66px;
     font-size: 20px;
     line-height: 27.32px;
