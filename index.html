@@ -4,7 +4,6 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портфолио фронтенд-разработчика Саши Орлова</title>
 
   <link rel="stylesheet" href="styles/reset.css">
@@ -24,8 +23,10 @@
 <body>
 
   <header>
-    <nav>
-      <div class="container">
+
+    <div class="container">
+
+      <nav>
         <a href="#" class="nav__logo">
           <img src="./resources/logo.png" alt="орлов" class="nav__logo-link">
         </a>
@@ -40,7 +41,7 @@
             престиж компании и позволяют выделиться на фоне конкурентов</p>
           <h1>Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1>
         </div>
-      </div>
+    </div>
     </nav>
 
   </header>
@@ -51,34 +52,35 @@
 
     <section id="projects" class="projeсts">
       <div class="container">
-        <h3 class="projects__title">Самые свежие проекты</h3>
+        <h2 class="projects__title">Самые свежие проекты</h2>
         <ul class="projects__list">
           <li class="project">
             <img class="project__img" src="./resources/news1.png" alt="Проект сайта">
-            <p class="project__title">
-              Realhome
-            </p>
-            <p class="project__text">
-              дизайн,верстка, настройка
-            </p>
+
+            <div class="project-inner">
+              <h3 class="project__title">Realhome</h3>
+              <p class="project__text">
+                дизайн,верстка, настройка
+              </p>
+            </div>
           </li>
           <li class="project">
             <img class="project__img" src="./resources/news2.png" alt="Набор варинтов интерфейсов">
-            <p class="project__title">
-              GLASS
-            </p>
-            <p class="project__text">
-              разработка интерфейса
-            </p>
+            <div class="project-inner">
+              <h3 class="project__title">GLASS</h3>
+              <p class="project__text">
+                разработка интерфейса
+              </p>
+            </div>
           </li>
           <li class="project">
             <img class="project__img" src="./resources/news3.png" alt="Набор варинтов интерфейсов">
-            <p class="project__title">
-              Fesiyen
-            </p>
-            <p class="project__text">
-              разработка интерфейса
-            </p>
+            <div class="project-inner">
+              <h3 class="project__title">Fesiyen</h3>
+              <p class="project__text">
+                разработка интерфейса
+              </p>
+            </div>
           </li>
         </ul>
 
@@ -90,18 +92,18 @@
     <!-- КОМПЕТЕНЦИИ-->
     <section id="competencies" class="skills">
       <div class="container">
-        <h3>Мои компетенции</h3>
+        <h2>Мои компетенции</h2>
         <ul class="skills__list">
           <li class="skill">
             <img class="skill__img" src="./resources/skill01.png" alt="HTML">
-            <h2 class="skill__title">HTML и CSS</h2>
+            <h3 class="skill__title">HTML и CSS</h3>
             <p class="skill__text">это основа фронтенд разработки. Умение создавать и правильно
               структурировать HTML-документы, а также применять стили к этим документам на CSS, является обязательным
               навыком для каждого фронтенд разработчика.</p>
           </li>
           <li class="skill">
             <img class="skill__img" src="./resources/skill02.png" alt="JavaScript">
-            <h2 class="skill__title">JavaScript</h2>
+            <h3 class="skill__title">JavaScript</h3>
             <p class="skill__text">это язык программирования, который используется для создания динамического
               и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами
               JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне
@@ -109,14 +111,14 @@
           </li>
           <li class="skill">
             <img class="skill__img" src="./resources/skill03.png" alt="Работа с библиотеками и фреймворками">
-            <h2 class="skill__title">Работа с библиотеками и фреймворками</h2>
+            <h3 class="skill__title">Работа с библиотеками и фреймворками</h3>
             <p class="skill__text">фронтенд разработчики должны быть знакомы с различными библиотеками и
               фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать
               их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
           </li>
           <li class="skill">
             <img class="skill__img" src="./resources/skill04.png" alt="Разработка для мобильных">
-            <h2 class="skill__title">Разработка для мобильных <br> устройств и адаптивная верстка</h2>
+            <h3 class="skill__title">Разработка для мобильных <br> устройств и адаптивная верстка</h3>
             <p class="skill__text">фронтенд разработчики должны быть знакомы с различными библиотеками и
               фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать
               их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
@@ -130,10 +132,10 @@
 
     <section id="services" class="services">
       <div class="container">
-        <h2 class="services__title">Помогаю реализовать широкий спектр задач</h2>
+        <h3 class="services__title">Помогаю реализовать широкий спектр задач</h3>
         <ul class="services__list">
           <li class="services__list-card">
-            <img__whrapper><img src="./resources/task1.png" alt="Сайт" class="services__list-cardimg"></img__whrapper>
+            <img class="img__whrapper" src="/resources/task1.png" alt="Сайт" class="services__list-cardimg"> </img>
             <div class="services__list-card-content">
               <h3 class="services__list-card-title">
                 Разработка сайта под ключ
@@ -146,8 +148,8 @@
             </div>
           </li>
           <li class="services__list-card">
-            <img__whrapper><img src="./resources/task2.png" alt="Разработка" class="services__list-cardimg">
-            </img__whrapper>
+            <img class="img__whrapper"  src="/resources/task2.png" alt="Разработка" class="services__list-cardimg">
+            </img>
             <div class="services__list-card-content">
               <h3 class="services__list-card-title">
                 Верстка сайтов
@@ -158,7 +160,7 @@
             </div>
           </li>
           <li class="services__list-card">
-            <img__whrapper><img src="./resources/task3.png" alt="Верстка" class="services__list-cardimg"></img__whrapper>
+            <img class="img__whrapper"  src="/resources/task3.png" alt="Верстка" class="services__list-cardimg"></img>
             <div class="services__list-card-content">
               <h3 class="services__list-card-title">
                 Разработка мобильного интерфейса
