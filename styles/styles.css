@@ -98,15 +98,16 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
-    line-height: 45.5px;
+
+    font-size: 55px;
+    line-height: 71.5px;
     letter-spacing: -0.03em;
     color: white;
 }
 
 h3 {
-    font-size: 55px;
-    line-height: 71.5px;
+    font-size: 35px;
+    line-height: 45.5px;
     letter-spacing: -0.03em;
     color: white;
 }
