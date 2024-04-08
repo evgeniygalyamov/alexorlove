@@ -22,16 +22,6 @@ header {
     background-size: cover;
 }
 
-footer {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1400px;
-    height: 223px;
-    font-family: "Manrope";
-    background-color: white;
-    border-radius: 30px 30px 0 0;
-}
-
 .container {
     margin: 0 auto;
     max-width: 1180px;
@@ -99,16 +89,17 @@ h1 {
 
 h2 {
 
-font-size: 35px;
-letter-spacing: -0.03em;
-color: #fff;
-color: white;
+    font-size: 55px;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    color: white;
 }
 
 h3 {
-font-size: 55px;
-letter-spacing: -0.03em;
-color: #1bff07;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    color: white;
 }
 
 .projects__list{
@@ -138,20 +129,20 @@ color: #1bff07;
     object-position: left;
 }
 
-.project-inner{
+.project-card{
     position: absolute;
     bottom: 50px;
     left: 50px;
 }
 
-.project__title {
+.project-card__title {
     font-size: 35px;
     line-height: 45.5px;
     letter-spacing: -0.03em;
     color: white;
 }
 
-.project__text {
+.project-card__text {
     font-size: 30px;
     line-height: 39px;
     letter-spacing: -0.03em;
@@ -293,6 +284,15 @@ color: #1bff07;
 
 .contacts__social-list-link:hover {
     color: #1BFF07;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    font-family: "Manrope";
+    background-color: white;
+    border-radius: 30px 30px 0 0;
 }
 
 .footer__title {
