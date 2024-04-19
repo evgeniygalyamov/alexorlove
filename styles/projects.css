@@ -1,0 +1,189 @@
+.projects__list {
+    margin-bottom: 80px;
+}
+
+.projects__title {
+    margin-bottom: 40px;
+}
+
+.projeсts {
+    margin: 150px 0;
+
+}
+
+.project {
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.project__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.project-card {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.project-holder {
+    padding-bottom: 313px;
+    display: inline-block;
+}
+
+.project-holder__text {
+    padding: 0 20px;
+    background-color: #1BFF07;
+    font-size: 20px;
+    line-height: 47px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    border-radius: 120px;
+
+}
+
+.project-card__title {
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.project-card__text {
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: white;
+
+}
+
+
+.projects__btn {
+    padding: 0 120px;
+    font-size: 30px;
+    line-height: 153px;
+    letter-spacing: -0.03em;
+    background-color: #1BFF07;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+
+
+}
+
+.projects__btn:hover {
+    background-color: black;
+    color: #1BFF07;
+    border: 1px solid #1BFF07;
+}
+
+
+
+
+@media (max-width: 960px) {
+
+
+    .projects__list {
+        margin-bottom: 64px;
+    }
+
+    .project {
+        height: 445px;
+    }
+
+    .project-card {
+
+        bottom: 40px;
+        left: 40px;
+    }
+
+    .project__img {
+        border-radius: 24px;
+    }
+
+    .project-holder {
+        padding-bottom: 255px;
+
+    }
+
+    .project-holder__text {
+        padding: 0 16px;
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .project-card__text {
+        font-size: 24px;
+        line-height: 31.2px;
+
+    }
+
+    .projects__btn {
+        padding: 0 90px;
+        font-size: 30px;
+        line-height: 124px;
+        letter-spacing: -0.03em;
+
+    }
+
+}
+
+
+
+
+@media (max-width: 639px) {
+
+    .projects__list {
+        margin-bottom: 60px;
+    }
+
+
+    .projeсts {
+        margin: 100px 0;
+
+    }
+
+    .project-card {
+
+        bottom: 50px;
+        left: 22px;
+    }
+
+    .project-holder {
+        padding-bottom: 273px;
+
+    }
+
+    .project-holder__text {
+        padding: 0 19px;
+        font-size: 13px;
+        line-height: 30px;
+
+    }
+
+    .project-card__text {
+        font-size: 16px;
+        line-height: 20.8px;
+
+    }
+
+    .projects__btn {
+        padding: 0 ;
+        max-width: 100%;
+        display: block;
+        font-size: 18px;
+        line-height: 80px;
+        text-align: center;
+
+    }
+
+
+
+
+
+}
