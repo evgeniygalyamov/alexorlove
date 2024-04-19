@@ -4,6 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портфолио фронтенд-разработчика Саши Орлова</title>
 
   <link rel="stylesheet" href="styles/reset.css">
@@ -26,23 +27,68 @@
 
     <div class="container">
 
-      <nav>
-        <a href="#" class="nav__logo">
-          <img src="./resources/logo.png" alt="орлов" class="nav__logo-link">
-        </a>
-        <ul class="nav__menu">
-          <li class="nav__menu-list"><a href="#projects" class="nav__menu-link">портфолио</a></li>
-          <li class="nav__menu-list"><a href="#competencies" class="nav__menu-link">компетенции</a></li>
-          <li class="nav__menu-list"><a href="#services" class="nav__menu-link">услуги</a></li>
-          <li class="nav__menu-list"><a href="#contacts" class="nav__menu-link">контакты</a></li>
-        </ul>
-        <div class="nav__whrapper">
-          <p class="nav__whrapper-title">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают
-            престиж компании и позволяют выделиться на фоне конкурентов</p>
-          <h1>Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1>
+      <nav class="nav">
+
+        <div class="logo">
+          <a href="#" class="logo__link"></a>
         </div>
+
+        <ul class="nav__wrapper">
+          <li class="nav__menu">
+            <a href="#projects" class="nav__menu-link">портфолио</a>
+          </li>
+          <li class="nav__menu">
+            <a href="#projects" class="nav__menu-link">компетенции</a>
+          </li>
+          <li class="nav__menu">
+            <a href="#projects" class="nav__menu-link">услуги</a>
+          </li>
+          <li class="nav__menu">
+            <a href="#projects" class="nav__menu-link">контакты</a>
+          </li>
+        </ul>
+
+        <button class="js-burger-btn burger-btn">
+
+
+        </button>
+      </nav>
+
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+          <img src="./resources/mob-logo.png" alt="" class="burger__logo">
+
+          <ul class="burger__nav">
+            <li class="burger__nav-item"><a href="#about" class="burger__nav-link">ПОРТФОЛИО</a></li>
+            <li class="burger__nav-item"><a href="#projects" class="burger__nav-link">КОМПЕТЕНЦИИ</a></li>
+            <li class="burger__nav-item"><a href="#services" class="burger__nav-link">УСЛУГИ</a></li>
+            <li class="burger__nav-item"><a href="#contaсts" class="burger__nav-link">КОНТАКТЫ</a></li>
+          </ul>
+
+          <div class="burger__nav-contacts">
+
+            <p class="burger__contacts-title">ДЛЯ СВЯЗИ:</p>
+
+            <a class="burger__phone" href="tel:+79358954535">telegram</a>
+
+
+            <a class="burger__mail" href="mailto:hello@mail.com">mail</a>
+            <a class="burger__mail" href="mailto:hello@mail.com">instagram</a>
+
+          </div>
+        </div>
+      </div>
+
+
+      <p class="nav__text">
+        Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют
+        выделиться на фоне конкурентов
+      </p>
+      <h1 class="nav__title">
+        Привет, я Саша — фронтенд разарботчик и дизайнер сайтов
+      </h1>
+
     </div>
-    </nav>
 
   </header>
 
@@ -55,30 +101,39 @@
         <h2 class="projects__title">Самые свежие проекты</h2>
         <ul class="projects__list">
           <li class="project">
-            <img class="project__img" src="./resources/news1.png" alt="Проект сайта">
+            <img class="project__img" src="./resources/metrica.png" alt="Проект сайта">
 
             <div class="project-card">
-              <h3 class=".project-card__title">Realhome</h3>
+              <div class="project-holder">
+                <p class="project-holder__text">дизайн интерьера</p>
+              </div>
+              <h3 class=".project-card__title">Метрика</h3>
               <p class="project-card__text">
-                дизайн,верстка, настройка
+                верстка, настройка
               </p>
             </div>
           </li>
           <li class="project">
-            <img class="project__img" src="./resources/news2.png" alt="Набор варинтов интерфейсов">
+            <img class="project__img" src="./resources/nothing.png" alt="Набор варинтов интерфейсов">
             <div class="project-card">
-              <h3 class="project-card__title">GLASS</h3>
+              <div class="project-holder">
+                <p class="project-holder__text">презентация продуктаа</p>
+              </div>
+              <h3 class="project-card__title">Nothing </h3>
               <p class="project-card__text">
-                разработка интерфейса
+                верстка, настройка
               </p>
             </div>
           </li>
           <li class="project">
-            <img class="project__img" src="./resources/news3.png" alt="Набор варинтов интерфейсов">
+            <img class="project__img" src="./resources/top.png" alt="Набор варинтов интерфейсов">
             <div class="project-card">
-              <h3 class="project-card__title">Fesiyen</h3>
+              <div class="project-holder">
+                <p class="project-holder__text">заказ путешествий</p>
+              </div>
+              <h3 class="project-card__title">TOPTRIP</h3>
               <p class="project-card__text">
-                разработка интерфейса
+                верстка
               </p>
             </div>
           </li>
@@ -111,14 +166,14 @@
           </li>
           <li class="skill">
             <img class="skill__img" src="./resources/skill03.png" alt="Работа с библиотеками и фреймворками">
-            <h3 class="skill__title">Работа с библиотеками и фреймворками</h3>
+            <h3 class="skill__title">Работа с библиотеками <br> и фреймворками <br><br></h3>
             <p class="skill__text">фронтенд разработчики должны быть знакомы с различными библиотеками и
               фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать
               их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
           </li>
           <li class="skill">
             <img class="skill__img" src="./resources/skill04.png" alt="Разработка для мобильных">
-            <h3 class="skill__title">Разработка для мобильных <br> устройств и адаптивная верстка</h3>
+            <h3 class="skill__title">Разработка для мобильных устройств и адаптивная верстка</h3>
             <p class="skill__text">фронтенд разработчики должны быть знакомы с различными библиотеками и
               фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать
               их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
@@ -148,7 +203,7 @@
             </div>
           </li>
           <li class="services__list-card">
-            <img class="img__whrapper"  src="./resources/task2.png" alt="Разработка" class="services__list-cardimg">
+            <img class="img__whrapper" src="./resources/task2.png" alt="Разработка" class="services__list-cardimg">
             </img>
             <div class="services__list-card-content">
               <h3 class="services__list-card-title">
@@ -160,7 +215,7 @@
             </div>
           </li>
           <li class="services__list-card">
-            <img class="img__whrapper"  src="./resources/task3.png" alt="Верстка" class="services__list-cardimg"></img>
+            <img class="img__whrapper" src="./resources/task3.png" alt="Верстка" class="services__list-cardimg"></img>
             <div class="services__list-card-content">
               <h3 class="services__list-card-title">
                 Разработка мобильного интерфейса
@@ -175,33 +230,64 @@
       </div>
     </section>
 
+
+
     <!-- КОНТАКТЫ-->
     <section id="contacts" class="contacts">
-      <div class="container">
-        <h3 class="contacts__title">для связи:</h3>
-        <ul class="contacts__social">
-          <li class="contacts__social-list">
-            <a href="/" class="contacts__social-list-link">instagram</a>
-          </li>
-          <li class="contacts__social-list">
-            <a href="/" class="contacts__social-list-link">telegram</a>
-          </li>
-          <li class="contacts__social-list">
-            <a href="/" class="contacts__social-list-link">mail</a>
-          </li>
-        </ul>
+
+      <div class="contacts__wrapper">
+
+        <div class="contacts__content">
+          <div class="contact__form">
+            <div class="form__content">
+              <p class="form__title">Для связи со мной заполните простую форму</p>
+              <div class="input__wrapper">
+                <input class="input" type="text" placeholder="Имя Фамилия">
+                <input class="input" type="email" placeholder="example@mail.com">
+              </div>
+              <button class="input__btn">Отправить </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts__img-wrapper">
+          <img class="contacts__img" src="./resources/programmer.png" alt="Программист">
+        </div>
+
       </div>
+
     </section>
 
   </main>
 
   <!-- ПОДВАЛ-->
-  <footer>
-    <div class="container">
-      <p class="footer__title">Портфолио фронтенд-разработчика Саши Орлова</p>
-      <p class="footer__description">Все права защищены. 2023</p>
+  <footer class="footer">
+
+    <div class="footer__wrapper">
+      <div class="container">
+        <div class="footer__column">
+          <p class="footer__column-text">Портфолио фротнтенд-разработчика Саши Орлова</p>
+          <ul class="footer__column-soc">
+            <a class="soc__link" href="#">mail</a>
+            <a class="soc__link" href="#">telegram</a>
+            <a class="soc__link" href="#">instagram</a>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__description">Все права защищены. 2023</p>
+          <a href="#" class="footer__polit">политика обработки данных</a>
+        </div>
+      </div>
+
+
     </div>
   </footer>
+
+
+
+  <script src="./burger.js"></script>
+
+
 
 </body>
 
