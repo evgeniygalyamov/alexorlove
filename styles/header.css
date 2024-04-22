@@ -1,5 +1,5 @@
-header {
-    margin: 0 auto;
+.header {
+    margin-bottom: 150px;
     max-width: 1400px;
     height: 765px;
     background-image: url(../resources/main.png);
@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+.nav__logo {
     width: 130px;
     height: 39px;
 
@@ -27,19 +27,19 @@ header {
     background-size: cover;
 }
 
-.nav__wrapper {
+.nav__list {
     display: flex;
     gap: 50px;
 }
 
-.nav__menu-link {
+.nav__link {
     font-size: 18px;
     line-height: 39px;
     letter-spacing: -0.03em;
     color: white;
 }
 
-.nav__text {
+.header__text {
     margin-bottom: 30px;
     max-width: 430px;
     font-size: 20px;
@@ -159,13 +159,14 @@ header {
         padding-top: 32px;
     }
 
-    .nav__title {
+    .header__title {
         max-width: 727px;
         font-size: 60px;
         line-height: 70px;
     }
+    
 
-    .nav__wrapper {
+    .nav__list {
         display: none;
     }
 
@@ -210,14 +211,14 @@ header {
         padding-bottom: 267px;
     }
 
-    .nav__text {
+    .header__text {
         max-width: 310px;
         font-size: 15px;
         line-height: 19.5px;
 
     }
 
-    .nav__title {
+    .header__title {
         margin-bottom: 10px;
         max-width: 353px;
         font-size: 40px;
