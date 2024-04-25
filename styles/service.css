@@ -4,11 +4,12 @@
 
 .services__list {
     margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
 }
 
-.services__list-card {
-    margin-bottom: 40px;
-}
+
 
 .img__whrapper{
     width: 100%;
@@ -40,7 +41,7 @@
 .services__list-card-content {
     display: flex;
     flex-direction: row;
-    row-gap: 20px;
+    column-gap: 20px;
     justify-content: space-between;
     padding: 40px 45px 65px 40px;
     background-color: #191C19;
@@ -66,11 +67,10 @@
 
     .services__list {
         margin-top: 60px;
+        gap: 32px;
     }
 
-    .services__list-card {
-        margin-bottom: 32px;
-    }
+
 
     .img__whrapper{
 
@@ -112,6 +112,7 @@
 
     .services__list {
         margin-top: 56px;
+        gap: 32px;
     }
 
     .services__list-card {
@@ -131,6 +132,7 @@
 
     .services__list-card-content {
         padding: 30px 23px 67px 21px;
+        gap: 15px;
         flex-direction: column;
     }
 
