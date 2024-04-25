@@ -65,6 +65,11 @@ h3 {
 
 @media (max-width: 639px) {
 
+        .container {
+        margin: 0 ;
+
+    }
+
     h2 {
         max-width: 268px;
         font-size: 30px;
