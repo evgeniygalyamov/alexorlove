@@ -1,7 +1,7 @@
 .header {
     margin-bottom: 150px;
     max-width: 1400px;
-    height: 765px;
+    min-height: 765px;
     background-image: url(../resources/main.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,6 +212,7 @@
 
     header {
         max-width: 639px;
+        min-height: 716px;
         background-image: url(../resources/mob-img.png);
 
     }
