@@ -18,7 +18,7 @@
 
 .input {
     margin-bottom: 26px;
-    padding: 16px 0;
+    padding: 16px 40px;
     width: 540px;
     display: block;
     font-size: 22px;
@@ -27,11 +27,18 @@
     background-color: #3B3D3B;
     border: none;
     border-radius: 120px;
+    box-sizing: border-box;
 
 }
 
+.input:focus {
+
+    outline: none;
+    color: white;
+}
+
 .input::placeholder {
-    padding-left: 40px;
+
     color: white;
 }
 
@@ -65,9 +72,6 @@
     border-radius: 30px;
 }
 
-.contacts__content {
-    padding-left: 122px;
-}
 
 .contacts__img-wrapper {
     max-width: 555px;
@@ -117,6 +121,7 @@
     }
 
     .input {
+        padding: 16px 25px;
         margin-bottom: 17px;
         max-width: 383px;
         font-size: 16px;
@@ -124,10 +129,7 @@
 
     }
 
-    .input::placeholder {
-        padding-left: 24px;
 
-    }
 
     .input:nth-last-child(1) {
         margin-bottom: 40px;
@@ -136,7 +138,6 @@
     .input__btn {
 
         padding: 0 110px;
-        width: 450px;
         font-size: 16px;
         line-height: 47px;
 
@@ -171,19 +172,18 @@
     }
 
     .input {
+        padding: 16px 20px;
         display: flex;
         margin-bottom: 15px;
-        width: 100%;
+  width: 100%;
+        max-width: 100%;
         font-size: 15px;
         line-height: 19.5px;
 
     }
 
 
-    .input::placeholder {
-        padding-left: 21px;
 
-    }
 
     .input__btn {
         border-radius: 6px;
@@ -196,6 +196,7 @@
     }
 
     .contacts__wrapper{
+        flex-direction: column;
         padding: 0 13px;
     }
 
