@@ -9,7 +9,7 @@
     gap: 75px;
 }
 
-.img__whrapper {
+.img__wrapper {
     max-width: 1150px;
     height: 200px
 }
@@ -75,7 +75,7 @@
 
 
 
-    .img__whrapper {
+    .img__wrapper {
 
         height: 162px;
     }
@@ -122,7 +122,7 @@
         margin-bottom: 60px;
     }
 
-    .img__whrapper {
+    .img__wrapper {
 
         height: 225px;
     }
@@ -138,3 +138,6 @@
         gap: 15px;
         flex-direction: column;
     }
+
+
+}
