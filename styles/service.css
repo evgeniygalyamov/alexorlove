@@ -9,7 +9,7 @@
     gap: 75px;
 }
 
-.img__wrapper {
+.services__img-whrapper{
     max-width: 1150px;
     height: 200px
 }
@@ -75,7 +75,7 @@
 
 
 
-    .img__wrapper {
+    .services__img-whrapper {
 
         height: 162px;
     }
@@ -122,7 +122,7 @@
         margin-bottom: 60px;
     }
 
-    .img__wrapper {
+    .services__img-whrapper {
 
         height: 225px;
     }
